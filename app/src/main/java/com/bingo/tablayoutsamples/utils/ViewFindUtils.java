@@ -1,4 +1,4 @@
-package com.flyco.tablayoutsamples.utils;
+package com.bingo.tablayoutsamples.utils;
 
 import android.util.SparseArray;
 import android.view.View;

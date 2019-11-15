@@ -1,4 +1,4 @@
-package com.flyco.tablayoutsamples.ui;
+package com.bingo.tablayoutsamples.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import com.flyco.tablayoutsamples.adapter.SimpleHomeAdapter;
+import com.bingo.tablayoutsamples.adapter.SimpleHomeAdapter;
 
 public class SimpleHomeActivity extends AppCompatActivity {
     private Context mContext = this;

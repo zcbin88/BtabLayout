@@ -1,4 +1,4 @@
-package com.flyco.tablayout;
+package com.bingo.tablayout;
 
 import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
@@ -26,11 +26,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.flyco.tablayout.listener.CustomTabEntity;
-import com.flyco.tablayout.listener.OnTabSelectListener;
-import com.flyco.tablayout.utils.FragmentChangeManager;
-import com.flyco.tablayout.utils.UnreadMsgUtils;
-import com.flyco.tablayout.widget.MsgView;
+import com.bingo.tablayout.listener.CustomTabEntity;
+import com.bingo.tablayout.listener.OnTabSelectListener;
+import com.bingo.tablayout.utils.FragmentChangeManager;
+import com.bingo.tablayout.utils.UnreadMsgUtils;
+import com.bingo.tablayout.widget.MsgView;
 
 import java.util.ArrayList;
 

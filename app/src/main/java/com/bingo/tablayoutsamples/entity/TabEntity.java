@@ -1,6 +1,6 @@
-package com.flyco.tablayoutsamples.entity;
+package com.bingo.tablayoutsamples.entity;
 
-import com.flyco.tablayout.listener.CustomTabEntity;
+import com.bingo.tablayout.listener.CustomTabEntity;
 
 public class TabEntity implements CustomTabEntity {
     public String title;

@@ -1,4 +1,4 @@
-package com.flyco.tablayoutsamples.ui;
+package com.bingo.tablayoutsamples.ui;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.flyco.tablayoutsamples.R;
+import com.bingo.tablayoutsamples.R;
 
 @SuppressLint("ValidFragment")
 public class SimpleCardFragment extends Fragment {

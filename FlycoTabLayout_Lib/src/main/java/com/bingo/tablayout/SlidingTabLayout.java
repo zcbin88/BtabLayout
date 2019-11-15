@@ -1,4 +1,4 @@
-package com.flyco.tablayout;
+package com.bingo.tablayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -26,9 +26,9 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.flyco.tablayout.listener.OnTabSelectListener;
-import com.flyco.tablayout.utils.UnreadMsgUtils;
-import com.flyco.tablayout.widget.MsgView;
+import com.bingo.tablayout.listener.OnTabSelectListener;
+import com.bingo.tablayout.utils.UnreadMsgUtils;
+import com.bingo.tablayout.widget.MsgView;
 
 import java.util.ArrayList;
 import java.util.Collections;

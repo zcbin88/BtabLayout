@@ -1,4 +1,4 @@
-package com.flyco.tablayout.listener;
+package com.bingo.tablayout.listener;
 
 import androidx.annotation.DrawableRes;
 

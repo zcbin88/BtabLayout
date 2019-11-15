@@ -1,11 +1,11 @@
-package com.flyco.tablayout.utils;
+package com.bingo.tablayout.utils;
 
 
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import com.flyco.tablayout.widget.MsgView;
+import com.bingo.tablayout.widget.MsgView;
 
 /**
  * 未读消息提示View,显示小红点或者带有数字的红点:

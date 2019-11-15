@@ -1,4 +1,4 @@
-package com.flyco.tablayoutsamples.ui;
+package com.bingo.tablayoutsamples.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,14 +10,14 @@ import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
-import com.flyco.tablayout.CommonTabLayout;
-import com.flyco.tablayout.listener.CustomTabEntity;
-import com.flyco.tablayout.listener.OnTabSelectListener;
-import com.flyco.tablayout.utils.UnreadMsgUtils;
-import com.flyco.tablayout.widget.MsgView;
-import com.flyco.tablayoutsamples.R;
-import com.flyco.tablayoutsamples.entity.TabEntity;
-import com.flyco.tablayoutsamples.utils.ViewFindUtils;
+import com.bingo.tablayout.CommonTabLayout;
+import com.bingo.tablayout.listener.CustomTabEntity;
+import com.bingo.tablayout.listener.OnTabSelectListener;
+import com.bingo.tablayout.utils.UnreadMsgUtils;
+import com.bingo.tablayout.widget.MsgView;
+import com.bingo.tablayoutsamples.R;
+import com.bingo.tablayoutsamples.entity.TabEntity;
+import com.bingo.tablayoutsamples.utils.ViewFindUtils;
 
 import java.util.ArrayList;
 import java.util.Random;

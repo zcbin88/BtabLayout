@@ -1,4 +1,4 @@
-package com.flyco.tablayoutsamples.ui;
+package com.bingo.tablayoutsamples.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,11 +11,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import com.flyco.tablayout.SlidingTabLayout;
-import com.flyco.tablayout.listener.OnTabSelectListener;
-import com.flyco.tablayout.widget.MsgView;
-import com.flyco.tablayoutsamples.R;
-import com.flyco.tablayoutsamples.utils.ViewFindUtils;
+import com.bingo.tablayout.SlidingTabLayout;
+import com.bingo.tablayout.listener.OnTabSelectListener;
+import com.bingo.tablayout.widget.MsgView;
+import com.bingo.tablayoutsamples.R;
+import com.bingo.tablayoutsamples.utils.ViewFindUtils;
 
 import java.util.ArrayList;
 
