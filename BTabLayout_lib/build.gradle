@@ -1,0 +1,38 @@
+apply plugin: 'com.android.library'
+//pply plugin: 'maven'
+apply plugin: 'com.novoda.bintray-release'
+
+// 这个version是区分library版本的，因此当我们需要更新library时记得修改这个version
+version = "1.0.0"
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName version
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+}
+
+publish {
+    userOrg = 'zhangchunbin'
+    groupId = 'com.bingo.tablayout'
+    artifactId = 'BTablayout'
+    publishVersion = '1.0.0'
+    desc = 'BTablayout lib'
+    website = "https://github.com/zhangchunbin/BtabLayout"
+}
+
